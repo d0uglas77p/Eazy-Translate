@@ -65,7 +65,7 @@ while True:
                 opt2 == 'v'
                 break#Quebra do loop da opcao 2
 
-    # Opcao 3: observao do programa exibida p usuario
+    # Opcao 3: obsercvao do programa exibida p usuario
     elif opt == '3':
         os.system("cls")
         print("Atenção: EAZY TRANSLATE está em fase de desenvolvimento.\n"
