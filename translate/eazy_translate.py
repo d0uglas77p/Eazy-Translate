@@ -79,6 +79,3 @@ while True:
         print("Volte sempre ao EAZY TRANSLATE...!")
         sleep(delay)
         break #Quebra do loop principal
-
-
-
