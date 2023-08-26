@@ -13,4 +13,4 @@
 #### 9.nova janela de observação
 #### 10.fim versão 1.0
 
-## Executavel está na pasta \\dist
+## Executavel na pasta dist
