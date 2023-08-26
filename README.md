@@ -8,4 +8,4 @@
 #### 4-implementação da interface gráfica com o Tkinter
 #### 5-entrada de dados e tradução dos dados.
 #### 6.validação e limite de caractere.
-#### 7.
+#### 7.organização do codigo, fixação dos objetos e comentarios.
