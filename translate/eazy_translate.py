@@ -55,7 +55,7 @@ janela = Tk()
 janela.title("Eazy Translate")
 janela.geometry("750x400")
 janela.resizable(False, False)  # Impede a redimensionamento horizontal e vertical
-
+janela.configure(bg="#5513bf")
 
 #texto_titulo = Label(janela, text="Eazy")
 #texto_titulo.grid(column=7, row=1, padx=200, pady=10)
@@ -63,30 +63,33 @@ janela.resizable(False, False)  # Impede a redimensionamento horizontal e vertic
 # Botao para traducao de En/Pt
 botao_enpt = Button(janela, text="Traduzir: Inglês / Português", command=translate_english_to_portuguese )
 botao_enpt.grid(column=0, row=1, padx=10, pady=20)
+botao_enpt.configure(bg="#00ff6e")
 
 # Caixa de entrada do usuario En/Pt
 texto_entrada = Entry(janela, width=100, validate="key") #99 caracteres
 texto_entrada.grid(column=0, row=2, padx=10, pady=10)
 
 # Texto traduzido da caixa de entrada En/Pt
-texto_traducao = Label(janela, width=100, text="")
+texto_traducao = Label(janela, width=100, text="", borderwidth=10)
 texto_traducao.grid(column=0, row=3, padx=10, pady=10)
 
 # Botao para traducao de Pt/En
 botao_pten = Button(janela, text="Traduzir: Português / Inglês", command=translate_portuguese_to_english )
 botao_pten.grid(column=0, row=4, padx=10, pady=20)
+botao_pten.configure(bg="#00ff6e")
 
 # Caixa de entrada do usuario Pt/En
 texto_entrada2 = Entry(janela, width=100, validate="key") #99 caracteres
 texto_entrada2.grid(column=0, row=5, padx=10, pady=10)
 
 # Texto traduzido da caixa de entrada Pt/En
-texto_traducao2 = Label(janela, width=100, text="")
+texto_traducao2 = Label(janela, width=100, text="", borderwidth=10)
 texto_traducao2.grid(column=0, row=6, padx=10, pady=10)
 
 # Botao para limpar
 botao_clear = Button(janela, text="Limpar", command=lambda: [limpar_texto(), texto_entrada2.delete(0, 'end'), texto_entrada.delete(0, 'end')])
 botao_clear.grid(column=0, row=7, padx=10, pady=10)
+botao_clear.configure(bg="#f58727")
 
 # Associacao a função de validação à caixa de entrada/ limites de caracteres da caixa de entrada
 validate_input_length_cmd = janela.register(validate_input_length)
