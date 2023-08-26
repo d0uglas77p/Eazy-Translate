@@ -9,3 +9,6 @@
 #### 5-entrada de dados e tradução dos dados.
 #### 6.validação e limite de caractere.
 #### 7.organização do codigo, fixação dos objetos e comentarios.
+#### 8.personalização do ambiente grafico com Tkinter.
+#### 9.nova janela de observação
+#### 10.fim versão 1.0
